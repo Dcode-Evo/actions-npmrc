@@ -1,0 +1,12 @@
+{
+  "name": "actions-npmrc",
+  "version": "1.0.0",
+  "description": "Configure custom registry configuration with .npmrc file",
+  "repository": "https://github.com/Dcode-Evo/actions-npmrc.git",
+  "author": "alek <alekart@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@actions/core": "^1.2.2"
+  }
+}

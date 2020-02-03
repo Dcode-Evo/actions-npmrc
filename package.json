@@ -6,7 +6,13 @@
   "author": "alek <alekart@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "tsc && ncc build ./lib/index.js -o ./dist"
+  },
   "devDependencies": {
-    "@actions/core": "^1.2.2"
+    "@actions/core": "^1.2.2",
+    "@types/node": "^13.7.0",
+    "@zeit/ncc": "^0.21.0",
+    "typescript": "^3.7.5"
   }
 }

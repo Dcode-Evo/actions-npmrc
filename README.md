@@ -8,7 +8,7 @@ steps:
   - uses: actions/setup-node@v1
     with:
       node-version: '13'
-  - uses: Dcode-Evo/actions-npmrc@1
+  - uses: Dcode-Evo/actions-npmrc@1.0.0
     with:
       registry: 'http://my-custom-registry.here/'
       scope: '@reposcope'
@@ -16,7 +16,7 @@ steps:
       password: ${{ secrets.MY_SECRET_PWD }}
       email: 'any@email.com'
       alwaysAuth: true
-  - uses: Dcode-Evo/actions-npmrc@1
+  - uses: Dcode-Evo/actions-npmrc@1.0.0
     with:
       registry: 'http://my-custom-registry.here/'
       scope: '@anotherscope'

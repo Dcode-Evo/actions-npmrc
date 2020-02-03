@@ -1,0 +1,24 @@
+name: Configure npmrc with repository config
+description: Configure npmrc with repository config
+inputs:
+  repository:
+    description: 'The url of the package repository'
+    required: true
+  scope:
+    description: 'Scope of the repository'
+    required: false
+  username:
+    description: 'Authentication username'
+    required: true
+  password:
+    description: 'User password'
+    required: true
+  email:
+    description: 'Email address'
+    required: true
+  alwaysAuth:
+    description: 'always-auth: true or false'
+    required: false
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

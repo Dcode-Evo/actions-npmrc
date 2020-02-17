@@ -21,6 +21,16 @@ steps:
       registry: 'http://my-custom-registry.here/'
       scope: '@anotherscope'
 ```
+will result in `.npmrc` file:
+
+```
+@reposcope:registry=http://my-custom-registry.here/
+//my-custom-registry.here/:_password=<MY-READABLE-PASSWORD>
+//my-custom-registry.here/:username=my_username
+//my-custom-registry.here/:email=any@email.com
+//my-custom-registry.here/:always-auth=true
+@anotherscope:registry=http://my-custom-registry.here/
+```
 
 You can use it as many times as you want this will append each use
 to the same .npmrc file

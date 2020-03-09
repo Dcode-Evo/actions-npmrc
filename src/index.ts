@@ -7,12 +7,13 @@ async function run() {
       registry: core.getInput('registry', {required: true}),
       scope: core.getInput('scope'),
       password: core.getInput('password'),
+      authToken: core.getInput('authToken'),
       username: core.getInput('username'),
       email: core.getInput('email'),
       alwaysAuth: core.getInput('alwaysAuth'),
     };
 
-    let {registry, scope, password, username, email} = inputs;
+    let {registry, scope, password, authToken, username, email} = inputs;
     let alwaysAuth = inputs.alwaysAuth === 'true';
     let npmrc;
 
@@ -31,6 +32,9 @@ async function run() {
 
     if (password) {
       npmrc += `${registryWithoutProtocol}:_password=${password}\n`;
+    }
+    if (authToken) {
+      npmrc += `${registryWithoutProtocol}:_authToken==${authToken}\n`;
     }
     if (username) {
       npmrc += `${registryWithoutProtocol}:username=${username}\n`;

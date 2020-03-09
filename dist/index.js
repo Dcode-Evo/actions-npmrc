@@ -398,7 +398,7 @@ function run() {
                 npmrc += `${registryWithoutProtocol}:_password=${password}\n`;
             }
             if (authToken) {
-                npmrc += `${registryWithoutProtocol}:_authToken==${authToken}\n`;
+                npmrc += `${registryWithoutProtocol}:_authToken=${authToken}\n`;
             }
             if (username) {
                 npmrc += `${registryWithoutProtocol}:username=${username}\n`;

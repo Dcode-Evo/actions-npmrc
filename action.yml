@@ -1,8 +1,8 @@
 name: Configure npmrc with repository config
 description: Configure npmrc with repository config
 inputs:
-  repository:
-    description: 'The url of the package repository'
+  registry:
+    description: 'The url of the package registry'
     required: true
   scope:
     description: 'Scope of the repository'

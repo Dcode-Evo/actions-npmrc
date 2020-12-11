@@ -19,6 +19,9 @@ inputs:
   alwaysAuth:
     description: 'always-auth: true or false'
     required: false
+  authToken:
+    description: 'Set the _authToken value for the provided registry'
+    required: false
 runs:
   using: 'node12'
   main: 'dist/index.js'

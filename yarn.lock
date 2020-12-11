@@ -2,22 +2,22 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.2.2.tgz#3c4848d50378f9e3bcb67bcf97813382ec7369ee"
-  integrity sha512-IbCx7oefq+Gi6FWbSs2Fnw8VkEI6Y4gvjrYprY3RV//ksq/KPMlClOerJ4jRosyal6zkUIc8R9fS/cpRMlGClg==
+"@actions/core@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.2.6.tgz#a78d49f41a4def18e88ce47c2cac615d5694bf09"
+  integrity sha512-ZQYitnqiyBc3D+k7LsgSBmMDVkOVidaagDG7j3fOym77jNunWRuYx7VSHa9GNfFZh+zh61xsCjRj4JxMZlDqTA==
 
-"@types/node@^13.7.0":
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
-  integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
+"@types/node@^14.14.12":
+  version "14.14.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.12.tgz#0b1d86f8c40141091285dea02e4940df73bba43f"
+  integrity sha512-ASH8OPHMNlkdjrEdmoILmzFfsJICvhBsFfAum4aKZ/9U4B6M6tTmTPh+f3ttWdD74CEGV5XvXWkbyfSdXaTd7g==
 
-"@zeit/ncc@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.21.0.tgz#9516fc44ca81614c5b582d6e88542fdf37c401b6"
-  integrity sha512-RUMdvVK/w78oo+yBjruZltt0kJXYar2un/1bYQ2LuHG7GmFVm+QjxzEmySwREctaJdEnBvlMdUNWd9hXHxEI3g==
+"@zeit/ncc@^0.22.3":
+  version "0.22.3"
+  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.22.3.tgz#fca6b86b4454ce7a7e1e7e755165ec06457f16cd"
+  integrity sha512-jnCLpLXWuw/PAiJiVbLjA8WBC0IJQbFeUwF4I9M+23MvIxTxk5pD4Q8byQBSPmHQjz5aBoA7AKAElQxMpjrCLQ==
 
-typescript@^3.7.5:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
-  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
+typescript@^3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
